@@ -7,7 +7,7 @@ const getters = {
   ripleCount: (state) => state.count * 3,
 };
 
-const mutation = {
+const mutations = {
   increment(state, number) {
     state.count += number;
   },
@@ -26,6 +26,7 @@ const actions = {
 };
 
 export default {
+  namespaced: true,
   state: state,
   getters,
   mutations,
