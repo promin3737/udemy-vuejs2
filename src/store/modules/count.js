@@ -4,7 +4,7 @@ const state = {
 
 const getters = {
   doubleCount: (state) => state.count * 2,
-  ripleCount: (state) => state.count * 3,
+  tripleCount: (state) => state.count * 3,
 };
 
 const mutations = {
@@ -30,5 +30,5 @@ export default {
   state: state,
   getters,
   mutations,
-  actions
-}
+  actions,
+};
